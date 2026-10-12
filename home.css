@@ -1,0 +1,42 @@
+.home-profile{display:grid;grid-template-columns:42% minmax(0,1fr);gap:30px;padding-top:75px;padding-bottom:70px}.home-name h1{font-size:64px;line-height:1.2;letter-spacing:-2px}.home-name .home-subtitle{font-size:17px;color:var(--muted);margin-top:24px}.home-education h2,.home-projects h2{font-size:28px;line-height:1.4;letter-spacing:-.5px}.home-education h2{margin-bottom:24px}.education-entry{padding:22px 0;border-top:1px solid var(--line)}.education-row{display:flex;justify-content:space-between;align-items:baseline;gap:20px}.education-entry h3{font-size:19px;font-weight:600}.education-entry time{font-size:13px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}.education-entry p{font-size:14px;color:var(--muted);margin-top:7px}.home-projects{padding-top:0;padding-bottom:70px}.home-projects h2{margin-bottom:28px}.project-entry{display:grid;grid-template-columns:59% 41%;border:1px solid var(--line);background:#eceeeb;overflow:hidden}.project-entry>img{height:390px;object-fit:cover;object-position:center}.project-entry-copy{padding:36px;display:flex;flex-direction:column;justify-content:center;align-items:start}.project-entry-copy .eyebrow{font-size:10px;margin-bottom:22px}.project-entry h3{font-size:29px;line-height:1.55;font-weight:600;letter-spacing:-.5px}.project-entry-link{font-size:13px;margin-top:35px;display:flex;align-items:center;gap:30px;border-bottom:1px solid #889da4;padding-bottom:8px}.project-entry:hover .project-entry-link{color:var(--accent);border-color:var(--accent)}.home-contact{border-top:1px solid var(--line)}.home-contact .section-wrap{padding-top:36px;padding-bottom:38px;display:flex;align-items:center;justify-content:space-between;gap:20px}.home-contact h2{font-size:16px;font-weight:500}.home-contact a{font-size:23px;font-weight:500;letter-spacing:.3px}.home-contact a:hover{text-decoration:underline;text-underline-offset:6px}.home-page footer{padding-top:25px;padding-bottom:25px}.home-page footer .identity{font-size:17px}.home-page footer .text-link{font-weight:400;color:var(--muted)}.project-page .header .identity span{display:inline;font-size:11px;letter-spacing:0}@media(max-width:900px){.home-profile{grid-template-columns:35% minmax(0,1fr);gap:25px}.home-name h1{font-size:54px}.home-name .home-subtitle{font-size:14px}.project-entry>img{height:330px}.project-entry-copy{padding:25px}.project-entry h3{font-size:25px}.education-entry h3{font-size:17px}.education-entry time{font-size:12px}}@media(max-width:600px){.home-profile{display:block;padding-top:42px;padding-bottom:38px}.home-name h1{font-size:50px}.home-name .home-subtitle{margin-top:15px;font-size:15px}.home-education{margin-top:45px}.home-education h2,.home-projects h2{font-size:25px}.education-entry{padding:18px 0}.education-row{gap:10px}.education-entry h3{font-size:17px}.education-entry time{font-size:11px}.education-entry p{font-size:13px}.home-projects{padding-top:0;padding-bottom:42px}.project-entry{grid-template-columns:1fr}.project-entry>img{height:260px}.project-entry-copy{padding:25px}.project-entry-copy .eyebrow{margin-bottom:12px}.project-entry h3{font-size:25px}.project-entry-link{margin-top:22px}.home-contact .section-wrap{display:block;padding-top:28px;padding-bottom:28px}.home-contact a{display:inline-block;font-size:21px;margin-top:10px}.project-page .header .identity{gap:7px}.project-page .header .identity span{font-size:10px}.project-page .header nav{gap:9px;font-size:10px}}
+
+.secondary-projects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:28px}.home-page .secondary-projects .project-entry{display:flex;flex-direction:column;margin:0;background:#fff;min-width:0}.home-page .secondary-projects .project-entry>img{height:210px!important;width:100%;object-fit:contain;padding:18px;background:#fff}.home-page .secondary-projects .project-entry-copy{padding:22px;flex:1;background:#eceeeb;justify-content:space-between}.home-page .secondary-projects .project-entry h3{font-size:20px;line-height:1.55}.home-page .secondary-projects .project-entry-link{font-size:12px;margin-top:20px;gap:22px}.home-page .home-projects>.project-entry .project-entry-copy{padding-top:36px;padding-bottom:36px}@media(max-width:900px){.secondary-projects{gap:16px}.home-page .secondary-projects .project-entry>img{height:170px!important;padding:12px}.home-page .secondary-projects .project-entry-copy{padding:16px}.home-page .secondary-projects .project-entry h3{font-size:17px}}@media(max-width:600px){.secondary-projects{grid-template-columns:1fr;gap:18px}.home-page .secondary-projects .project-entry{display:grid;grid-template-columns:40% minmax(0,1fr)}.home-page .secondary-projects .project-entry>img{height:165px!important;padding:12px}.home-page .secondary-projects .project-entry-copy{padding:18px;justify-content:center}.home-page .secondary-projects .project-entry h3{font-size:17px}.home-page .secondary-projects .project-entry-link{margin-top:14px}.home-page .home-projects>.project-entry .project-entry-copy{padding:25px}}
+
+.home-page .home-projects .secondary-projects>.project-entry{margin:0}
+
+/* Homepage identity and school details */
+.home-page .home-profile{align-items:center;padding-top:62px;padding-bottom:62px;gap:48px}
+.home-page .home-name .home-subtitle{margin-top:18px}
+.profile-email{display:inline-flex;align-items:center;gap:24px;margin-top:23px;padding-bottom:5px;border-bottom:1px solid var(--line);font-size:14px;color:var(--muted);letter-spacing:.2px}
+.profile-email span{color:var(--accent);font-size:16px}
+.profile-email:hover{color:var(--accent);border-color:var(--accent)}
+.home-page .home-education{padding-left:36px;border-left:1px solid var(--line)}
+.home-page .education-entry{border-top:0;padding:20px 0}
+.home-page .education-entry+.education-entry{border-top:1px solid var(--line)}
+.home-page .education-entry:first-child{padding-top:4px}
+.home-page .education-entry:last-child{padding-bottom:4px}
+.home-page .education-entry h3{font-size:20px;line-height:1.5}
+.home-page .education-entry p{margin-top:8px;line-height:1.6}
+@media(max-width:900px){.home-page .home-profile{gap:30px}.home-page .home-education{padding-left:25px}.home-page .education-entry h3{font-size:17px}}
+@media(max-width:600px){.home-page .home-profile{padding-top:38px;padding-bottom:38px}.profile-email{margin-top:19px;font-size:14px}.home-page .home-education{margin-top:30px;padding-left:0;padding-top:22px;border-left:0;border-top:1px solid var(--line)}.home-page .education-entry{padding:17px 0}.home-page .education-entry h3{font-size:17px}}
+/* Group the name and contact details into a compact identity block. */
+.home-name-heading{display:flex;align-items:baseline;gap:22px}
+.home-name-en{font-size:13px;font-weight:500;letter-spacing:1.3px;color:var(--muted)}
+.home-page .home-name .home-subtitle{margin-top:16px;font-size:16px}
+.home-page .profile-email{display:inline-block;margin-top:9px;padding:0;border:0;font-size:14px;letter-spacing:0;line-height:1.8}
+.home-page .profile-email:hover{text-decoration:underline;text-underline-offset:4px}
+@media(max-width:600px){.home-name-heading{gap:18px}.home-name-en{font-size:12px;letter-spacing:1px}.home-page .home-name .home-subtitle{font-size:15px;margin-top:15px}.home-page .profile-email{font-size:13px;margin-top:7px}}
+
+.home-page .home-name-heading+.profile-email{margin-top:20px}
+@media(max-width:600px){.home-page .home-name-heading+.profile-email{margin-top:16px}}
+
+/* Balanced identity and education columns. */
+.home-page .home-profile{grid-template-columns:34% minmax(0,1fr);gap:48px}
+.home-page .home-name-heading{display:block}
+.home-page .home-name h1{font-size:54px;line-height:1.2;letter-spacing:-1px}
+.home-page .home-name-en{display:block;margin-top:9px;font-size:16px;line-height:1.5;font-weight:400;letter-spacing:.2px}
+.home-page .home-name-heading+.profile-email{margin-top:18px;font-size:13px}
+.home-page .education-degree{color:var(--ink);font-weight:500}
+.home-page .education-divider{color:#a0aaa9;padding:0 5px}
+@media(max-width:900px){.home-page .home-profile{grid-template-columns:30% minmax(0,1fr);gap:30px}.home-page .home-name h1{font-size:48px}}
+@media(max-width:600px){.home-page .home-name h1{font-size:46px}.home-page .home-name-en{font-size:15px;margin-top:7px}.home-page .home-name-heading+.profile-email{margin-top:13px}.home-page .education-entry p{line-height:1.9}.home-page .education-divider{padding:0 3px}}

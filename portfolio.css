@@ -1,0 +1,35 @@
+/* Shared typography, surfaces and alignment across the portfolio. */
+:root{--surface:#fff;--tint:#e9edeb;--soft:#f9faf8;--caption-size:12px}
+.project-page .fea-intro h1,.project-page .contest-intro h1,.project-page .bistable-hero h1{font-size:43px;line-height:1.45;letter-spacing:-.8px}
+.section-heading h2,.innovation-title h2,.analysis-heading h2,.drawing-heading h2,.fea-heading h2,.fea-background h2,.contest-heading h2,.bistable-stage-intro h2{font-size:30px;line-height:1.45;letter-spacing:-.4px}
+.fea-tinted,.contest-band,.analysis-section,.drawings-section{background:var(--tint)}
+.fea-card,.contest-card,.analysis-card,.drawing-grid figure,.contest-pair figure,.background-manuals figure{border-color:var(--line)}
+.fea-card .image-button,.analysis-images{background:var(--soft)}
+.fea-card h3,.contest-card h3,.analysis-copy h3,.module-grid h3{font-size:17px;font-weight:600;line-height:1.55}
+.fea-card p,.contest-card p,.analysis-copy p,.module-grid p{font-size:13px;line-height:1.95}
+.fea-grid,.contest-grid,.analysis-grid{align-items:stretch}
+.fea-models figcaption,.background-photos figcaption,.photo-pair figcaption,.bistable-photo figcaption,.contest-cover figcaption,.contest-pair figcaption{font-size:var(--caption-size);line-height:1.8}
+.fea-meta,.contest-status{font-size:13px;line-height:1.8}
+.fea-heading>p,.contest-heading>p,.analysis-heading>p,.drawing-heading>p{font-size:14px;line-height:1.95;text-align:left}
+.fea-ending .section-wrap{display:block;padding-top:30px;padding-bottom:30px}
+.fea-ending p{max-width:900px;line-height:1.95;font-size:14px}
+.bistable-video video{margin-bottom:0}
+.chart-description{line-height:1.9}
+.header nav a{white-space:nowrap}
+.image-button:focus-visible{outline-offset:-4px}
+@media(max-width:900px){.project-page .fea-intro h1,.project-page .contest-intro h1,.project-page .bistable-hero h1{font-size:38px}.fea-heading>p,.contest-heading>p,.analysis-heading>p,.drawing-heading>p{font-size:13px}}
+@media(max-width:600px){
+ .project-page .fea-intro h1,.project-page .contest-intro h1,.project-page .bistable-hero h1{font-size:31px;letter-spacing:-.5px}
+ .section-heading h2,.innovation-title h2,.analysis-heading h2,.drawing-heading h2,.fea-heading h2,.fea-background h2,.contest-heading h2,.bistable-stage-intro h2{font-size:27px}
+ .header{gap:12px}.project-page .header nav{gap:10px;font-size:11px}.project-page .header .identity{gap:6px;flex-shrink:0}.project-page .header .identity span{font-size:10px}
+ .drawing-heading{display:block}.drawing-heading>p{margin-top:12px}
+ .fea-models figcaption,.background-photos figcaption,.bistable-photo figcaption,.contest-cover figcaption,.contest-pair figcaption{font-size:11px}
+ .fea-ending p{font-size:13px}.fea-meta,.contest-status{font-size:12px}
+ .background-manuals{grid-template-columns:1fr}.background-manuals img{height:180px}.background-manuals figcaption{display:flex;font-size:13px;padding:12px 16px}.background-manuals figcaption span{font-size:11px;margin:0}
+}
+
+/* Chapter background rhythm: cream introduction, alternating tinted chapters. */
+.chapter-tint{background:var(--tint)}
+.chapter-tint .overview-image{background:var(--surface)}
+.chapter-tint .fea-background{padding-top:60px}
+@media(max-width:600px){.chapter-tint .fea-background{padding-top:45px}}
