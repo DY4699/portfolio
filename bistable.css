@@ -31,3 +31,15 @@
 .bistable-model-comparison{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin-bottom:28px}.bistable-model-comparison img{height:250px}
 .bistable-methods{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px;margin-bottom:35px}.bistable-methods article{border-top:2px solid #879b9d;padding:20px 0 0}.bistable-methods h3,.bistable-response-lead h3{font-size:18px;margin-bottom:12px}.bistable-methods p,.bistable-response-lead p{font-size:13px;line-height:1.95;color:var(--muted)}.bistable-response-lead{margin:0 0 24px}
 @media(max-width:600px){.bistable-physical-states img{height:auto;max-height:350px}.bistable-model-comparison{gap:14px}.bistable-model-comparison img{height:190px;padding:14px}.bistable-methods{grid-template-columns:1fr;gap:22px}.bistable-methods article{padding-top:15px}.bistable-model-comparison figcaption{padding:12px;font-size:11px}}
+.assembly-method{margin-top:40px;padding-top:36px;border-top:1px solid var(--line)}
+.assembly-method img{height:auto;max-height:none;object-fit:contain;background:#fff}
+.assembly-results{margin:48px 0 0;padding-top:32px;border-top:1px solid var(--line)}
+#assembly .bistable-video{margin:20px 0 28px}
+#assembly .bistable-video:last-child{margin-bottom:0}
+body.project-page .bistable-video video{border-radius:0}
+#assembly .bistable-video video{aspect-ratio:16/9;max-height:none}
+#assembly .contest-heading .eyebrow{margin-bottom:14px}
+.chart-tabs [role=tabpanel]{container-type:inline-size}
+.chart-scroll-hint{display:none}
+@container (width < 650px){.chart-scroll-hint{display:block;font-size:12px;color:var(--muted);margin:0 0 10px}}
+@media(max-width:600px){.assembly-method,.assembly-results{margin-top:30px;padding-top:24px}.assembly-method img{height:auto}}

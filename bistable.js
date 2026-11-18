@@ -1,3 +1,12 @@
+document.querySelectorAll('[data-chart-tabs] [role="tabpanel"]').forEach(panel => {
+  const chart = panel.querySelector('.native-chart');
+  if (!chart) return;
+  const hint = document.createElement('p');
+  hint.className = 'chart-scroll-hint';
+  hint.textContent = '左右滑动查看完整图表';
+  chart.before(hint);
+});
+
 document.querySelectorAll('[data-chart-tabs]').forEach(group => {
   const tabs = [...group.querySelectorAll('[role="tab"]')];
   const panels = [...group.querySelectorAll('[role="tabpanel"]')];
